@@ -21,5 +21,5 @@ func (pc Server) GetType() string {
 }
 
 func (pc Server) PrindDetails() {
-	fmt.Printf("%s Core:[%d] Mem:[%d]", pc.Type, pc.Core, pc.Memory)
+	fmt.Printf("%s Core:[%d] Mem:[%d]\n", pc.Type, pc.Core, pc.Memory)
 }

@@ -23,5 +23,5 @@ func (pc PersonalComputer) GetType() string {
 }
 
 func (pc PersonalComputer) PrindDetails() {
-	fmt.Printf("%s Core:[%d] Mem:[%d] Monitor:[%v]", pc.Type, pc.Core, pc.Memory, pc.Monitor)
+	fmt.Printf("%s Core:[%d] Mem:[%d] Monitor:[%v]\n", pc.Type, pc.Core, pc.Memory, pc.Monitor)
 }

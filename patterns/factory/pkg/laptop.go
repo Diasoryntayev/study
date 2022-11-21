@@ -12,8 +12,8 @@ type Laptop struct {
 func NewLaptop() Computer {
 	return Laptop{
 		Type:    LaptopType,
-		Core:    8,
-		Memory:  16,
+		Core:    6,
+		Memory:  12,
 		Monitor: true,
 	}
 }
@@ -23,5 +23,5 @@ func (pc Laptop) GetType() string {
 }
 
 func (pc Laptop) PrindDetails() {
-	fmt.Printf("%s Core:[%d] Mem:[%d] Monitor:[%v]", pc.Type, pc.Core, pc.Memory, pc.Monitor)
+	fmt.Printf("%s Core:[%d] Mem:[%d] Monitor:[%v]\n", pc.Type, pc.Core, pc.Memory, pc.Monitor)
 }
