@@ -16,13 +16,13 @@ type Computer interface {
 func New(typeName string) Computer {
 	switch typeName {
 	default:
-		fmt.Printf("%s Несуществнющий тип объекта!\n", typeName)
+		fmt.Printf("%s Несуществующий тип объекта!\n", typeName)
 		return nil
 	case ServerType:
-		return nil
+		return NewServer()
 	case PersonalCompType:
-		return nil
+		return NewPersonalComputer()
 	case LaptopType:
-		return nil
+		return NewLaptop()
 	}
 }
