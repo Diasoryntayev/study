@@ -7,6 +7,6 @@ type AsusComputer struct {
 	CPU    int
 }
 
-func (pc AsusComputer) PrindDetails() {
+func (pc AsusComputer) PrintDetails() {
 	fmt.Printf("[Asus] Pc CPU:[%d] Mem:[%d]\n", pc.CPU, pc.Memory)
 }

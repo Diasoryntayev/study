@@ -6,6 +6,6 @@ type AsusMonitor struct {
 	Size int
 }
 
-func (pc AsusMonitor) PrindDetails() {
+func (pc AsusMonitor) PrintDetails() {
 	fmt.Printf("[Asus] Monitor Size:[%d]\n", pc.Size)
 }

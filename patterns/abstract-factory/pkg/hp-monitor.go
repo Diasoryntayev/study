@@ -6,6 +6,6 @@ type HpMonitor struct {
 	Size int
 }
 
-func (pc HpMonitor) PrindDetails() {
+func (pc HpMonitor) PrintDetails() {
 	fmt.Printf("[Hp] Monitor Size:[%d]\n", pc.Size)
 }
