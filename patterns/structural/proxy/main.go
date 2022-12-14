@@ -21,4 +21,7 @@ func main() {
 	}
 	adminData, err := proxy.GetData(admin)
 	fmt.Printf("From [%s] Data:[%v] Err:[%v]\n", admin, adminData, err)
+
+	userData, err := proxy.GetData(user)
+	fmt.Printf("From [%s] Data:[%v] Err:[%v]\n", user, userData, err)
 }
