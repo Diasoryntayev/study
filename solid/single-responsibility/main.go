@@ -64,6 +64,7 @@ func main() {
 	out := outputter{}
 	fmt.Println(out.Text(c))
 	fmt.Println(out.JSON(c))
+	fmt.Println()
 	fmt.Println(out.Text(s))
 	fmt.Println(out.JSON(s))
 }
